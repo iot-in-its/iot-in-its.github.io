@@ -1,8 +1,8 @@
-Formal Methods Researcher (req 983520)
-Mountain View
+Formal Methods Researcher at Toyota Motor North America R&D - InfoTech Labs
+Mountain View, California
 The candidate will be performing hands-on research on high-assurance connect car system assurance using formal methods and design by contract concepts. Research areas include high-assurance connected software architecture & software engineering, dependable connected software platform, system assurance, and model based systems engineering (MBSE).
 
- 
+Please contact Dr. Ziran Wang (ziran.wang@toyota.com) for a referral.
 
 PRIMARY PERFORMANCE RESPONSIBILITIES
 
