@@ -1,0 +1,52 @@
+08:13:58	 From  IV2020 Chair AM3 : @All Please feel free to ask any questions to the presenters in this chat box.
+08:19:10	 From  Chris Schwarz : Thanks for the interesting presentation. Do you think this method can be stand-alone, or is it best to be paired with V2V data, HD map correspondence algorithms, or other methods?
+08:20:50	 From  Yongkang Liu : Hi Chris, I will say for sure if paired with other information, it will be better
+08:21:05	 From  Yongkang Liu : Such as HD map infomation
+08:21:45	 From  Lingxi Li : Hi Yongkang, do you use any semantic segmentation method here or just use the bounding box? When doing average of all distances in the bounding box, there is a possibility that the actual distance is not on the vehicle so the distance is off.
+08:23:22	 From  Yongkang Liu : @Lingxi, we did not use semantic right now, but  you are correct that when average distance it could has some errors 
+08:23:50	 From  Lingxi Li : @Yongkang, OK, thanks! 
+08:24:08	 From  Yi Hou : @Yongkang What variables do you use for lane changing prediction?
+08:24:19	 From  Zhaobin Mo : Hi Yongkang, which simulation platform did you use, is it Carla?
+08:24:38	 From  Yongkang Liu : @Linxi, so we think later we could use others sensors to get more accurate distance information
+08:25:36	 From  Lingxi Li : @Yongkang, sure, thanks!
+08:28:40	 From  Yongkang Liu : @Yi Hou, just looked at the details, the variable we used are relative distance between vehicle and velocity difference
+08:30:06	 From  Zhaobin Mo : @Yongkang, could you please type the simulation software in the chat box? Sorry I didn't get it clearly. Thanks!
+08:30:37	 From  Yongkang Liu : @Zhaobin, it is Unity 
+08:31:00	 From  Zhaobin Mo : Thanks, Yongkang.
+08:40:34	 From  Yi Hou : @Yongkang Thanks.
+08:45:20	 From  Yongkang Liu : @Chris, for the second study, how do you know the presence of bicycle and pedestrians? Through V2V or something like that?
+08:56:02	 From  Siyang Zhang : Chris, great presentation, thank you. What is the degree of freedom of the driving simulator? What's the software for scenario building? 
+08:58:51	 From  Henry Chen : @Chris thank you for the wonderful presentation, would there be any value in low fidelity simulation, e.g. for modeling traffic actors movements?
+08:58:58	 From  Sherif Moustafa Tawfik Gaweesh : Is there a specific way to measure driving simulator fidelity? or how can we quantify its reliability?
+09:00:17	 From  Guoyuan Wu : @Chris, is there any wireless communication component in your Digital Twin related projects? Do you consider real-time update of information or interaction between real-world and simulation world (besides driving simulator and pedestrian simulator)?
+09:02:30	 From  Chris Schwarz : (Henry) Yes, low fidelity always has a place - it totally depends on the goals of the simulation. As George Box said, all models are wrong, but some are useful. I don't think you must always go for high fidelity
+09:04:51	 From  Chris Schwarz : @Sherif; You can measure things like degrees of freedom and field of view. There are also papers that link the presence of motion to driver behavior. For example, without motion, drivers tend to oscillate after a lane change. But generally, it's very difficult to compare fidelity across two simulators unless they're very different (motion vs no motion)
+09:08:17	 From  Chris Schwarz : @Guoyuan; Hi! one project I didn't talk about used a cloud-based HD map to deliver a warning to the driver's vehicle. Some of our ADAS projects are based on V2V and require real-time queries about object location and speed. So yes, but not always
+09:09:30	 From  Guoyuan Wu : @Chris, great! Thank you for your presentation and reply!
+09:30:25	 From  Henry Chen : @Chris, thank you so much
+09:31:04	 From  Yongkang Liu : @Ruimin, interesting topic on the near-crash detection, I think this a purely vision based approach? Do you consider any other data source like CAN or IMU?
+09:36:00	 From  Yongkang Liu : Thanks Ruimin
+09:44:33	 From  Ruimin Ke : Thanks Yongkang
+10:35:49	 From  Pratham Oza : @Prashant: thank you for the talk. With AI and simulation models involved to predict and forecast maneuvers, do you foresee issues in providing timeliness guarantees especially with constrained edge resources?
+10:57:56	 From  Kanok Boriboonsomsin : @Dan Work - How much did it cost to install the 3 poles and instrument the video cameras?
+11:01:10	 From  Yongkang Liu : @Dan, is there any plan to release the I-24 data after it finished? If so - what kind of information will include other than raw video and trajectory? Thanks
+11:02:55	 From  Ruimin : @Dr.Work, Thanks for the great talk! Could you elaborate how you convert the object detection in the camera to global GPS coordinates? I mean, conversion from 2D to 3D is straightforward with camera calibration, but I was wondering how you align the vehicles' 3D coordinates with the global GPS latitude and longitude? (if my understanding was correct)
+11:03:47	 From  Baik Hoh : Hi Prof. Work, really appreciated for your awesome presentation. A little different perspective, how can we nudge humans to do more carpooling?
+11:08:01	 From  Guoyuan Wu : @Dan Great presentation! Maybe you mentioned a bit in your slides, compared to your research with ring experiment before (with one AV to smooth the traffic), what major challenges you have observed or would expect for the real-world implementation?
+11:08:33	 From  Dan Work : @Yongkang, yes we will be making the trajectory data publicly available. Initially just trajectory data, with expanding features over time. @All feel free to tell me what you want to see made available and we’ll see what we can do. We want to share useful data.
+11:12:01	 From  Dan Work : @Ruimin, I’m not sure I fully appreciated the question, so feel free to follow up if I don’t address. Yes conversion from 2D to 3D is standard. We have additional info regarding absolute lat/long of the roadway and elevation based on high resolution map also available on the roadway, so we know how to relate each point in camera 2D coordinates to a real position on earth.
+11:13:01	 From  Jinghui Yuan : @Dr. Work, Thank you for the great presentation. Do you plan to extract the trajectory from these cameras in real-time? How is the performance of the real-time extracted trajectory data, e.g., detection rate? I also noticed that the bounding boxes are horizontal rectangle, how do you identify the center of every vehicle? Do you plan to detect the mask of vehicles and then get the trajectory of the masks?
+11:13:54	 From  Ruimin : @Dr. Work, thanks!
+11:14:38	 From  Dan Work : @Baik great question, haven’t directly explored the question from a scientific point of view. But anything that can make carpooling more reliable/safe/convenient/etc would seem to be critical. We’re just starting a project at Vanderbilt to reduce the number of single-occupancy trips to our campus and nudging behavioral change will be a big part of it. Of course Covid-19 has changed things some with the massive increase in remote work.
+11:15:19	 From  Yongkang Liu : @Dan, thanks! Following to Ruimin's question, I think it will be helpful to include the GPS info (or  velocity and distance information) in the future 
+11:18:57	 From  Dan Work : @Jinghui, yes we are doing 4k trajectory extraction in real time. We should have a detailed description of the methodology available in a publication in the coming weeks. You are correctly highlighting the issues, i.e., you need fast detection, fast tracking, and when vehicles change shape/orientation the center of the bounding box does not always refer to the same spot on the vehicle.
+11:21:22	 From  Dan Work : @Yongkang, @Ruimin, yes we’ll give time series containing position, velocity, and (hopefully?) solid acceleration estimates; accelerations are the noisiest due to derivatives amplifying errors, a well known issue with NGSIM and other datasets that a lot of folks worked on to correct
+11:26:22	 From  Jinghui Yuan : Thank you, @Dr. Work.
+11:26:25	 From  Yongkang Liu : @Dan, does this issue (change of the vehicle shape/orientation) discussed in the upcoming publication?
+11:57:52	 From  Guoyuan Wu : @Jibo Great presentation! What would be the variance in data quality from GridSmart under different time of day or seasons? Also, are you using some HD map information for the whole city? Is there any communication challenge or information synthesis issue for real-time control (if any) on such a large-scale deployment?
+12:16:53	 From  Guoyuan Wu : @Meng, Interesting presentation! In your optimization, you also calculate the optimal trajectory for pedestrian, right? Is there any speed guidance in VR for the pedestrian subject or just the green and red indication for go/stop?
+12:17:50	 From  Yongkang Liu : @Meng, interesting topic, did you consider how to determine the presence of pedestrian and their intention to cross? Or it's out of the scope of this study?
+12:22:05	 From  Chris Schwarz : thank you organizers and presenters
+12:22:09	 From  Yongkang Liu : thanks
+12:22:14	 From  Sky Guo : Great session!
+
