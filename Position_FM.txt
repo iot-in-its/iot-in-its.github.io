@@ -1,8 +1,12 @@
 Formal Methods Researcher at Toyota Motor North America R&D - InfoTech Labs
 Mountain View, California
+
+Job Summary
 The candidate will be performing hands-on research on high-assurance connect car system assurance using formal methods and design by contract concepts. Research areas include high-assurance connected software architecture & software engineering, dependable connected software platform, system assurance, and model based systems engineering (MBSE).
 
 Please contact Dr. Ziran Wang (ziran.wang@toyota.com) for a referral.
+
+
 
 PRIMARY PERFORMANCE RESPONSIBILITIES
 
@@ -16,7 +20,7 @@ Runtime verification and runtime monitoring;
 
 Correctness-by-construction;
 
-Automatic abstraction (bottom-up) and decomposition (top-down) of system specifications.
+Automatic abstraction (bottom-up) and decomposition (top-down) of system specifications;
 
 Occasional driving of test vehicles to conduct experiments.
 
@@ -24,24 +28,25 @@ Requirements:
 Occasional driving of test vehicles to conduct experiments therefore this candidate will need to be local
 
 
+
 QUALIFICATIONS & REQUIRED SKILLS
 
-Ph. D (preferred) or Masters in Computer Science, Electrical Engineering, Computer Engineering, or related field.
+Ph. D (preferred) or Masters in Computer Science, Electrical Engineering, Computer Engineering, or related field;
 
-2+ years of research experience in formal verification and/or software engineering.
+2+ years of research experience in formal verification and/or software engineering;
 
-Proficiency in formal verification tools, e.g., theorem prover tools, model checking tools, etc.  
+Proficiency in formal verification tools, e.g., theorem prover tools, model checking tools, etc;  
 
-Knowledge of computer systems, embedded systems, and systems and software engineering.
+Knowledge of computer systems, embedded systems, and systems and software engineering;
 
-Knowledge of Model Based Systems Engineering (MBSE) and Verification & Validation (V&V) concepts
+Knowledge of Model Based Systems Engineering (MBSE) and Verification & Validation (V&V) concepts;
 
-Knowledge of programming and scripting languages, e.g., Java, Python, etc.
+Knowledge of programming and scripting languages, e.g., Java, Python, etc;
 
-Research prototype development skills.
+Research prototype development skills;
 
-Ability to engage in general research activities, e.g.,  planning, time management, and team building.
+Ability to engage in general research activities, e.g.,  planning, time management, and team building;
 
-Ability to work independently as well as within a highly motivated team environment.
+Ability to work independently as well as within a highly motivated team environment;
 
 Excellent interpersonal and communication skills.

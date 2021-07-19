@@ -1,0 +1,45 @@
+Systems Researcher Engineer at Toyota Motor North America R&D - InfoTech Labs
+Mountain View, California
+
+Job Summary
+The candidate will be hands-on Systems Engineer responsible for the development of end-to-end connected systems, requirements gathering and embedded systems proof-of-concept (PoC). He will also participate in the R&D activities to advance mobility solution, including system requirements, validation and verification (V&V) activities.
+
+Please contact Dr. Ziran Wang (ziran.wang@toyota.com) for a referral.
+
+
+
+PRIMARY PERFORMANCE RESPONSIBILITIES
+
+Develop innovative solutions that advance end-to-end mobility services platform;
+
+Participate in the generation and revision of functional and non-functional requirements of the platform;
+
+Establish and maintain requirements traceability;
+
+Obtain patents and publish research in prestigious journals and conferences;
+
+Work horizontally across Toyota to fully understand technical needs and to disseminate Client’s research.
+
+
+
+QUALIFICATIONS & REQUIRED SKILLS
+
+Advanced degree (PhD preferred) in Electrical Engineering, Computer Engineering or related field;
+
+Programming experience with lab scale prototype vehicles (e.g., F1/10, DeepRacer, etc);
+
+Working knowledge of hardware design for embedded applications (e.g. NVIDIA Jetson);
+
+Working experience with Robot Operating System (ROS), Python and Matlab/Simulink;
+
+Experience of proof-of-concept prototyping for connected cars or IoT systems;
+
+Well-developed interpersonal and communication skills, including ability to respond professionally in all types of situations.
+
+
+
+Added bonus / Nice to haves:
+
+Knowledge of connected vehicles and/or autonomous vehicles and its use-cases;
+
+Corporate lab setting with a proven track record of cross-functional collaboration and achievements experience.
