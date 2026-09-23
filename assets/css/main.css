@@ -4142,3 +4142,30 @@ input, select, textarea {
 		}
 
 	}
+/* Event archives */
+#events .event-year {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.125);
+    margin-bottom: 0.75em;
+}
+#events .event-year summary {
+    cursor: pointer;
+    padding: 0.65em 0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+#events .event-year summary:focus-visible {
+    outline: solid 2px #ffffff;
+    outline-offset: 4px;
+}
+#events .event-year ul {
+    margin-top: 1em;
+}
+#events .event-year li {
+    margin-bottom: 1.5em;
+}
+.wrapper.spotlight.new-member .image img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 30%;
+}
